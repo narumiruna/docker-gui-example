@@ -1,5 +1,12 @@
 # docker-gui-example
 
+## Prerequisite
+
+- Docker
+- Webcam
+
+## Run Example
+
 ```shell
 docker build -f Dockerfile -t docker-gui-example .
 xhost +local:docker
